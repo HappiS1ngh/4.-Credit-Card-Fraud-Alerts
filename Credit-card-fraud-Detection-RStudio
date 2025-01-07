@@ -244,6 +244,8 @@ predicted_val <-predict(CART_model, test_data[-1], type = 'class')
 confusionMatrix(predicted_val, test_data$Class)
 
 #-----------------------------------------------------------------------------------------------------------------------------------
+## Acknowledgments
+This project is inspired by Shalaka Saraogi (https://github.com/shalakasaraogi).- Thank You Shalak :)
 
 predicted_val <-predict(CART_model , credit_card[,-1], type = 'class')
 confusionMatrix(predicted_val, credit_card$Class)
